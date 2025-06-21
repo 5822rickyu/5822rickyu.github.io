@@ -43,12 +43,10 @@ switch (window.localStorage.getItem('ZYI_Theme_Mode')) {
 /**
  * 切换主题模式
  */
-document.querySelector("#start > aside > footer > div > a:nth-child(5)").onclick = () => {
+document.querySelector("#start > aside > footer > div > a:nth-child(4)").onclick = () => {
     ThemeChange('dark');
 }
-document.querySelector("#start > aside > footer > div > a:nth-child(6)").onclick = () => {
+document.querySelector("#start > aside > footer > div > a:nth-child(5)").onclick = () => {
     ThemeChange('light');
 }
-document.querySelector("#start > aside > footer > div > a:nth-child(7)").onclick = () => {
-    ThemeChange('Moss');
-}
+
